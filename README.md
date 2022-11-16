@@ -2,7 +2,7 @@
 
 Allow you to use your own icons in Home Assistant. No more static images ! Using svg icons allows for them to dynamically react to the state of your entities, like the brightness or the color of a light.
 
-![A svg icon allow it to be dynamic](https://raw.githubusercontent.com/Armaell/home-assistant-custom-icons-loader/master/img/with-without.png)
+![A svg icon allow it to be dynamic](https://raw.githubusercontent.com/thomasloven/home-assistant-custom-icons-loader/master/img/with-without.png)
 
 ## Installation
 You need to add in your `configuration.yaml` the following line :  
@@ -11,7 +11,7 @@ Then use one of the following methods :
 
 ### With [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 If you use HACS, you can add this repository as a custom one. Go to the settings, and fill as following :
-- Custom repository : 'armaell/home-assistant-custom-icons-loader'
+- Custom repository : 'thomasloven/home-assistant-custom-icons-loader'
 - Category : Integration
 
 
@@ -33,7 +33,7 @@ Move the archive to the `custom_icons` folder.
 Once the file placed, reload Home Assistant.  
 You can now use your new icons in a similar fashion than stock mdi icons, but with `custom:` prefix. By example, if you added 'git' icon :  
   
-![How to use your icon](https://raw.githubusercontent.com/Armaell/home-assistant-custom-icons-loader/master/img/use-icon-in-lovelave.png)
+![How to use your icon](https://raw.githubusercontent.com/thomasloven/home-assistant-custom-icons-loader/master/img/use-icon-in-lovelave.png)
 
 ### Alternative prefixes
 You can use other prefixes than `custom:` by creating a subfolder inside the `custom_icons` folder. By example `custom_icons/room` will make the icons inside this folder available with the `room:` prefix.
